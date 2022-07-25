@@ -1,0 +1,29 @@
+{
+    "auth": {
+      "username": "rodrigovillanuev_uZa5Kz",
+      "access_key": "EzUs2bXQpyct6GK8jsqY"
+    },
+    "browsers": [{
+        "browser": "chrome",
+        "os": "Windows 10",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "firefox",
+        "os": "OS X Mojave",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "edge",
+        "os": "OS X Catalina",
+        "versions": ["latest"]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "./cypress.json",
+      "cypress_version": "8.2.0",
+      "project_name": "Cypress BrowserStack",
+      "build_name": "Demo uno",
+      "parallels": "2"
+    }
+  }

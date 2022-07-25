@@ -1,0 +1,14 @@
+1.-npm install
+
+2.-npm install cypress --save-dev
+
+3.-npx cypress open
+
+4.-npm install -g browserstack-cypress-cli
+
+5.- browserstack-cypress init
+
+
+6.-Correr ./cypress/integration/seccion_1/*
+
+browserstack-cypress run --sync ./cypress/integration/Seccion_1/*

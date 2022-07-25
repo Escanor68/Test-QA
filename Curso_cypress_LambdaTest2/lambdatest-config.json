@@ -1,0 +1,37 @@
+{
+   "lambdatest_auth": {
+      "username": "rodrigocypress1",
+      "access_key": "JzsNsjX4yPianmcr3mhxsuXlD7CzfQjLIcniPsbZdX2A7jqXZu"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "86.0"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "82.0"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "Integration_LambdaTest2",
+      "parallels": 4,
+      "specs": "./cypress/integration/seccion_1/*",
+      "ignore_files": "",
+      "npm_dependencies": {
+         "cypress": "^8.1.0"
+      },
+      "feature_file_suppport": false
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnelName": null
+   }
+}

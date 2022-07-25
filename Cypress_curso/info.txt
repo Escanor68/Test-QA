@@ -1,0 +1,13 @@
+Bienvenido al curso de cypress
+
+1.-npm init --> Inicia el proyecto
+
+2.-npm install cypress --save-dev --> Instalacion de cypress
+
+3.-sudo chmod -R 777 /home/martin/.cache/Cypress --> Dar permisos a cypress
+
+4.-npx cypress install --force --> Instalacion forzada
+
+5.-node_modules/.bin/cypress open --> Abre cypress
+
+6.-Parar consola --> ctrl + c
